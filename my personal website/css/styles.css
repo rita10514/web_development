@@ -1,0 +1,155 @@
+
+
+body {
+  text-align: center;
+  margin: 0;
+  font-family: 'ariel' ,sans-serif;
+  font-size: 0.8rem;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+  font-size: 3.625rem;
+  margin: 50px auto 0 auto; /*top right bottom left*/
+  color: #66BFBF;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  color: #66BFBF;
+  font-weight: normal;
+
+
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+
+}
+
+a {
+  color: #11999E;
+  margin: 10px;
+}
+
+hr {
+
+border: none;
+border-top: 7px;
+border-top-style: dotted;
+color: #EAF6F6;
+width: 10%;
+
+}
+
+p {
+  line-height: 2;
+}
+
+.intro {
+  width: 50%;
+  margin: auto;
+}
+
+.top-container {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  position: relative;
+}
+
+.middle-container {
+  width: 80%;
+  margin: auto;
+}
+
+.cloud1 {
+  position: absolute;
+  right: 150px;
+  top: 40px;
+
+}
+
+.cloud2 {
+  position: absolute;
+  left: 150px;
+}
+
+.profile-pic{
+  width: 20%;
+  height: auto;
+}
+
+.turtle{
+  width: 30%;
+  height: auto;
+  float: left;
+  margin-right: 30px;
+}
+
+.horse{
+  width: 30%;
+  height: auto;
+  float: right;
+  margin-left: 30px;
+}
+.profile {
+  margin-bottom: 100px;
+  margin-top: 100px;
+}
+.skills{
+  margin-top: 100px;
+}
+.skill-row {
+  width: 50%;
+  Margin: 100px auto 100px auto;
+  text-align: left;
+
+}
+
+.contact-me {
+  margin-bottom: 100px;
+}
+
+.bottom-container{
+  padding-top: 50px;
+  background-color: #66BFBF;
+  height: 100px;
+}
+
+.copy-right{
+  color: white;
+}
+
+.btn {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Open Sans;
+   font-size: 16px;
+   font-weight: 500;
+   padding: 7px;
+   background-color: #66BFBF;
+   border: solid #66BFBF 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
